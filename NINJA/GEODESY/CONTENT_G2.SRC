@@ -1,5 +1,8 @@
 Ikarus
 LeGo
 
-Content\Quickloot\INIT.D
+Content\Geodesy\AFSP.d
+Content\Geodesy\Utils.d
+Content\Geodesy\KeysFuncs.d
+Content\Geodesy\Init.D
 Content\NinjaInit.d
