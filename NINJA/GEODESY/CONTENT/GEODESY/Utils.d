@@ -100,12 +100,15 @@ func string Ninja_Geodesy_Measurement_Position_Hero()
     var string str;
     var int i;
     i = MEM_ReadIntArray(_@(Ninja_Geodesy_Measurement_Utils_PosXYZ__value), 0);
+    i = divf(i, mkf(100));
     str = toStringf(i);
     str = ConcatStrings(str, ",");
     i = MEM_ReadIntArray(_@(Ninja_Geodesy_Measurement_Utils_PosXYZ__value), 1);
+    i = divf(i, mkf(100));
     str = ConcatStrings(str, toStringf(i));
     str = ConcatStrings(str, ",");
     i = MEM_ReadIntArray(_@(Ninja_Geodesy_Measurement_Utils_PosXYZ__value), 2);
+    i = divf(i, mkf(100));
     str = ConcatStrings(str, toStringf(i));
     
     return str;
