@@ -1,4 +1,4 @@
-Gothic Geodesy
+# Gothic Geodesy
 
 It is [Ninja plugin](https://github.com/szapp/Ninja), that gives possiblity to save measurement to a file of hero positions in Gothic II: Night of the Raven video game.
 
